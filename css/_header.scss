@@ -1,0 +1,47 @@
+@import "./vars";
+
+header {
+  background: $gradient-bg;
+  div.container {
+    display: flex;
+    justify-content: space-between;
+    div.logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      figure {
+        display: block;
+        margin: 0px;
+      }
+    }
+    div.nav {
+      nav.menu {
+        display: flex;
+        height: inherit;
+        align-items: center;
+        justify-content: flex-end;
+        padding-left: 10px;
+        padding-right: 10px;
+        ol {
+          display: flex;
+          li {
+            list-style: none;
+            padding-left: 20px;
+            a {
+              color: $link_ligth;
+              font-size: $font_size_normal;
+              &:hover {
+                text-shadow: 1px 1px 2px $secondary;
+                color: rgb(250, 171, 171);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}

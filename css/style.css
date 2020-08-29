@@ -1,0 +1,499 @@
+header {
+  background: -webkit-gradient(linear, left top, right top, from(#0d47a1), color-stop(90%, #1565c0), to(#1976d2));
+  background: linear-gradient(90deg, #0d47a1, #1565c0 90%, #1976d2);
+}
+
+header div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header div.container div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header div.container div.logo figure {
+  display: block;
+  margin: 0px;
+}
+
+header div.container div.nav nav.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header div.container div.nav nav.menu ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header div.container div.nav nav.menu ol li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+header div.container div.nav nav.menu ol li a {
+  color: white;
+  font-size: 12px;
+}
+
+header div.container div.nav nav.menu ol li a:hover {
+  text-shadow: 1px 1px 2px #e8453f;
+  color: #faabab;
+}
+
+a {
+  text-decoration: none;
+}
+
+section.hero {
+  background: -webkit-gradient(linear, left top, right top, from(#0d47a1), color-stop(90%, #1565c0), to(#1976d2));
+  background: linear-gradient(90deg, #0d47a1, #1565c0 90%, #1976d2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Source Sans Pro" sans-serif;
+}
+
+section.hero div.container {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-position: 100% 100%;
+  background-image: url("../images/fondo_blue.png");
+  background-repeat: no-repeat;
+}
+
+section.hero div.container div h1 {
+  letter-spacing: -0.2px;
+  margin-left: 24px;
+  line-height: 1.5;
+  font-size: 34px;
+  color: #e8453f;
+  width: 400px;
+  padding-top: 15px;
+}
+
+section.hero div.container div h1 strong {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  section.hero div.container div.about-me {
+    background-color: rgba(13, 71, 161, 0.7);
+  }
+}
+
+section.hero div.container div.hero-border-imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+section.hero div.container div.hero-border-imagen figure {
+  margin: 0px;
+  width: 100%;
+}
+
+section.hero div.container div.hero-border-imagen figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section.porfolio {
+  background-color: #f5f5f5fa;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.porfolio div.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.porfolio div.container h2 {
+  font-size: 24px;
+  color: #0d47a1;
+}
+
+section.porfolio div.container article {
+  background-color: #ffffff;
+  border: 2px solid #e8453f;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+section.porfolio div.container article div.project-details {
+  max-width: 550px;
+}
+
+section.porfolio div.container article div.project-details h3 {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+section.porfolio div.container article div.project-details h6 {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section.porfolio div.container article div.project-details p.project-data small {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section.porfolio div.container article div.project-details p.project-url {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+section.porfolio div.container article div.project-details p.project-url a {
+  color: #e8453f;
+}
+
+section.porfolio div.container article div.project-details p.project-description {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: justify;
+  font-size: medium;
+  margin: 10px;
+}
+
+section.porfolio div.container article div.project-images-Container img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 400px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222323;
+  font-size: 12px;
+}
+
+footer div.option {
+  font-size: 12px;
+  color: white;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer div.option div.option_contact a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #0d47a1;
+}
+
+.footer {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+}
+
+section.contact {
+  background: -webkit-gradient(linear, left top, right top, from(#0d47a1), color-stop(90%, #1565c0), to(#1976d2));
+  background: linear-gradient(90deg, #0d47a1, #1565c0 90%, #1976d2);
+  color: white;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.contact div.container_footer {
+  width: 1000px;
+  height: inherit;
+  margin: 0 auto;
+  display: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.contact div.container_footer .form-email h3 {
+  font-size: 18px;
+}
+
+section.contact div.container_footer .form-email input {
+  border-color: gray;
+  padding: 5px 20px 5px 25px;
+  border-radius: 5px;
+}
+
+section.contact div.container_footer .form-email button {
+  background: #e8453f;
+  border: none;
+  color: white;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+section.contact div.container_footer .form-email button:focus {
+  border: none;
+}
+
+section.contact div.container_footer div.social a {
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline-block;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  border: 4px solid white;
+}
+
+section.contact div.container_footer div.social .social-link.twitter {
+  border-radius: 30px 30px 30px 30px;
+  background-image: url("../images/boton_twitter.png");
+}
+
+section.contact div.container_footer div.social .social-link.facebook {
+  border-radius: 30px 30px 30px 30px;
+  background-image: url("../images/boton_facebook.png");
+}
+
+section.contact div.container_footer div.social .social-link.github {
+  border-radius: 30px 30px 30px 30px;
+  background-image: url("../images/boton_github10.png");
+}
+
+section.contact div.container_footer div.social .social-link.instagram {
+  border-radius: 30px 30px 30px 30px;
+  background-image: url("../images/boton_instagram.png");
+}
+
+div.container {
+  width: 1000px;
+  margin: auto;
+  display: inherit;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+  height: inherit;
+  -ms-flex-wrap: inherit;
+      flex-wrap: inherit;
+}
+
+div.container h2 {
+  font-size: 24px;
+  color: #0d47a1;
+}
+
+section.event-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.event-list div.container article.event {
+  margin: 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+  min-height: 350px;
+}
+
+section.event-list div.container article.event:hover {
+  -webkit-box-shadow: 3px 6px 5px 0px #cbccd6;
+          box-shadow: 3px 6px 5px 0px #cbccd6;
+}
+
+section.event-list div.container article.event figure.event-image-Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+}
+
+section.event-list div.container article.event figure.event-image-Container .event-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+}
+
+section.event-list div.container article.event figure.event-image-Container .event-image:hover {
+  width: 90%;
+  -webkit-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+}
+
+section.event-list div.container div.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+section.event-list div.container div.event-detail h3.event-title {
+  text-align: center;
+}
+
+section.event-list div.container div.event-detail p.event-description {
+  text-align: left;
+}
+
+section.event-list div.container div.event-detail a.event-url {
+  border: 1px solid #e8453f;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #e8453f;
+  border-radius: 5px;
+}
+
+section.event-list div.container div.event-detail a.event-url:hover {
+  background-color: #e8453f;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

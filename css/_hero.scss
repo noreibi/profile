@@ -1,0 +1,49 @@
+@import "./vars";
+
+section.hero {
+  background: $gradient-bg;
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro" sans-serif;
+  div.container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-position: 100% 100%;
+    background-image: url("../images/fondo_blue.png");
+    background-repeat: no-repeat;
+    div {
+      h1 {
+        letter-spacing: -0.2px;
+        margin-left: 24px;
+        line-height: 1.5;
+        font-size: 34px;
+        color: #e8453f;
+        width: 400px;
+        padding-top: 15px;
+        strong {
+          color: $link_ligth;
+        }
+      }
+    }
+    div.about-me {
+      @media (max-width: 900px) {
+        background-color: rgba($color: $main_color, $alpha: 0.7);
+      }
+    }
+    div.hero-border-imagen {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      figure {
+        margin: 0px;
+        width: 100%;
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
